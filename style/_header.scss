@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+}
+header {
+  min-height: 100vh;
+  width: 100%;
+  background-image: url(../Images/image_fondo_final_opt.png);
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: cover;
+  color: white;
+  position: relative;
+  filter: blur(2px);
+  transition: all 1s;
+  &:hover {
+    filter: blur(0px);
+  }
+  .picture {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    img {
+      border-radius: 50%;
+      width: 270px;
+      height: 300px;
+    }
+  }
+}

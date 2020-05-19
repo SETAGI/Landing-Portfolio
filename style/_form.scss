@@ -1,0 +1,43 @@
+.formu{
+    width: 50%;  
+}
+.formu_intern{
+        position: relative;
+        box-shadow: 0px 0px 20px black;
+        padding: 10%;
+       
+        background-color: honeydew;
+         max-width: 60%;
+         margin: 0 auto;
+       
+        .input_group{
+                    
+                     margin-bottom: 10%;
+                     max-width: 100%;
+                     .input_in{
+                        
+                            font-family: 'Roboto', sans-serif;
+                            font-size: 12px;
+                            border: none;
+                            width: 93%;
+                            padding: 3%;
+                            border-bottom: 2px solid #7FFFD4;
+                            &:focus, &:active{
+                                transition: all .4s;
+                                outline: none;
+                                border-bottom: 2px solid #A52A2A;
+                                              }
+                            }
+                    .button{
+                             background: #008B8B;
+                             border-radius: 1px;
+                             border: 2px solid white;
+                             color: white;
+                             cursor: pointer;
+                             display: inline-block;
+                             padding: 5%;
+                             width: 100%;
+                             
+                           }
+                    }
+      }

@@ -31,7 +31,7 @@
   top: 50%;
   left: 50%;
   -webkit-transform: translate(60%, 0%);
-          transform: translate(60%, 0%);
+  transform: translate(60%, 0%);
   margin-top: 5%;
   font-family: "Open Sans", sans-serif;
 }
@@ -48,7 +48,7 @@
   top: 50%;
   left: 50%;
   -webkit-transform: translate(73%, 0%);
-          transform: translate(73%, 0%);
+  transform: translate(73%, 0%);
   margin-top: 5%;
   font-family: "Open Sans", sans-serif;
 }
@@ -82,10 +82,10 @@
   display: -ms-flexbox;
   display: flex;
   -ms-flex-pack: distribute;
-      justify-content: space-around;
+  justify-content: space-around;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   padding: 5%;
 }
 
@@ -136,14 +136,14 @@ header {
   color: white;
   position: relative;
   -webkit-filter: blur(2px);
-          filter: blur(2px);
+  filter: blur(2px);
   -webkit-transition: all 1s;
   transition: all 1s;
 }
 
 header:hover {
   -webkit-filter: blur(0px);
-          filter: blur(0px);
+  filter: blur(0px);
 }
 
 header .picture {
@@ -151,7 +151,7 @@ header .picture {
   top: 50%;
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
-          transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
   text-align: center;
 }
 
@@ -168,7 +168,7 @@ header .picture img {
 .formu_intern {
   position: relative;
   -webkit-box-shadow: 0px 0px 20px black;
-          box-shadow: 0px 0px 20px black;
+  box-shadow: 0px 0px 20px black;
   padding: 10%;
   background-color: honeydew;
   max-width: 60%;
@@ -181,23 +181,24 @@ header .picture img {
 }
 
 .formu_intern .input_group .input_in {
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   font-size: 12px;
   border: none;
   width: 93%;
   padding: 3%;
-  border-bottom: 2px solid #7FFFD4;
+  border-bottom: 2px solid #7fffd4;
 }
 
-.formu_intern .input_group .input_in:focus, .formu_intern .input_group .input_in:active {
-  -webkit-transition: all .4s;
-  transition: all .4s;
+.formu_intern .input_group .input_in:focus,
+.formu_intern .input_group .input_in:active {
+  -webkit-transition: all 0.4s;
+  transition: all 0.4s;
   outline: none;
-  border-bottom: 2px solid #A52A2A;
+  border-bottom: 2px solid #a52a2a;
 }
 
 .formu_intern .input_group .button {
-  background: #008B8B;
+  background: #008b8b;
   border-radius: 1px;
   border: 2px solid white;
   color: white;
@@ -216,8 +217,8 @@ header .picture img {
   .container_intern {
     display: block;
     -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
   }
   .container_intern .icon {
     width: 100%;
@@ -238,7 +239,7 @@ header .picture img {
     top: 0%;
     left: 0%;
     -webkit-transform: translate(0%, 0%);
-            transform: translate(0%, 0%);
+    transform: translate(0%, 0%);
     max-width: 80%;
     margin: 0 auto;
     margin-top: 5%;
@@ -248,7 +249,7 @@ header .picture img {
     top: 50%;
     left: 50%;
     -webkit-transform: translate(50%, 0%);
-            transform: translate(50%, 0%);
+    transform: translate(50%, 0%);
   }
   .imag_tech a img {
     width: 50%;
@@ -271,7 +272,7 @@ header .picture img {
     top: 0%;
     left: 0%;
     -webkit-transform: translate(0%, 0%);
-            transform: translate(0%, 0%);
+    transform: translate(0%, 0%);
     max-width: 92%;
     margin: 0 auto;
     margin-top: 5%;
@@ -281,7 +282,7 @@ header .picture img {
     top: 50%;
     left: 50%;
     -webkit-transform: translate(50%, 0%);
-            transform: translate(50%, 0%);
+    transform: translate(50%, 0%);
   }
   .icon i {
     font-size: 100px;
@@ -294,7 +295,7 @@ header .picture img {
     top: 0%;
     left: 0%;
     -webkit-transform: translate(0%, 0%);
-            transform: translate(0%, 0%);
+    transform: translate(0%, 0%);
     max-width: 65%;
     margin: 0 auto;
     margin-top: 5%;
